@@ -17,8 +17,8 @@ export default function Home() {
   }
 
   return (   
-    <main>
-      <article className='flex flex-col justify-center items-center prose'>
+    <main className='w-screen h-screen flex justify-center'>
+      <article className='w-full flex flex-col justify-center items-center prose'>
         <h1 className='text-center'>Będziesz moją walentynką?</h1>
         <Image src={badger} alt="alt" width={250} height={200} />
       {/* <main className="flex min-h-screen items-center justify-center p-2"> */}
