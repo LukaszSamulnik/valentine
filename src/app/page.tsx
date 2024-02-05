@@ -18,10 +18,6 @@ export default function Home() {
 
   return (   
     <main>
-      <audio src="/valentines.mp3" autoPlay>
-        <source src="/valentines.mp3" type="audio/mpeg" />
-      </audio>
-
       <article className='flex flex-col justify-center items-center prose'>
         <h1 className='text-center'>Będziesz moją walentynką?</h1>
         <Image src={badger} alt="alt" width={250} height={200} />
