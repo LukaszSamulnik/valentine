@@ -13,9 +13,12 @@ export default function RootLayout({
     <html lang="en">
      
       <body className={inter.className}>
-        <audio src="/valentines.mp3" autoPlay>
+        <div className='flex justify-center'>
+        <audio className='inline-block w-[200px]' src="/valentines.mp3" controls autoPlay>
+          zagraj
           <source src="/valentines.mp3" type="audio/mpeg" />
         </audio>
+        </div>
         <div>
         {children}
         </div>
